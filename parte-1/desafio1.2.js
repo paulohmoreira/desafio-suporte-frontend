@@ -1,6 +1,7 @@
 // Seleciona primeiro fieldset do formulário
 const firstFieldset = document.querySelector("fieldset:nth-child(1)");
 
+// Inclui os campos Select e Textarea
 firstFieldset.innerHTML += `
   <div class="form-group">
     <select class="form-control">

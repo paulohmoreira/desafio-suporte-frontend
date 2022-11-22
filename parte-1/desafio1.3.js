@@ -18,7 +18,7 @@ divItensWpp.remove();
 const btn1 = document.querySelector(".btn.button.button--whatsapp.header__phones-button-toggler")
 const btn2 = document.getElementById("new-vehicles-showcase_cta-box-button")
 
-// Função que cria o evento (Criei uma função para reutilizar o código)
+// Função que cria o evento (Optei por usar uma função para reutilizar o código)
 function setNewEvent(btn){
   btn.setAttribute(
     "onclick",
