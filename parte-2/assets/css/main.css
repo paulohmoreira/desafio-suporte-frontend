@@ -1,0 +1,20 @@
+div.topo {
+  padding: 24px 0;
+  /* background-color: var(--cinza-claro); */
+}
+
+section .paginacao {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-gray);
+  font-size: .75rem;
+}
+
+.paginacao span {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 8px;
+}
