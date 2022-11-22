@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+@import url("header.css");
+
+:root {
+  --branco: #fff;
+  --azul: #3754E2;
+  --azul-escuro: #304ACB;
+  --verde: #4EC859;
+  --verde-escuro: #2DAF38;
+
+  --font: 'Open Sans', sans-serif;
+  --font-footer: 'Ubuntu', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  max-width: 1440px;
+}
+
+.header-container {
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  font-weight: 700;
+  font-size: .875rem;
+  color: var(--branco);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

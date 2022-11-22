@@ -1,0 +1,46 @@
+header {
+  height: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .header-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.logo {
+  display: flex;
+  align-items: center;
+}
+
+div.botoes {
+  display: flex;
+}
+
+.header-container button {
+  width: 160px;
+  border-radius: 50px;
+  height: 40px;
+}
+
+img.line {
+  height: 30px;
+  margin: 0 24px;
+}
+
+button.whatsapp {
+  margin-left: 30px;
+  background-color: var(--verde);
+}
+button.whatsapp:hover {
+  background-color: var(--verde-escuro);
+}
+
+button.phone-call {
+  background-color: var(--azul);
+}
+button.phone-call:hover {
+  background-color: var(--azul-escuro);
+}
