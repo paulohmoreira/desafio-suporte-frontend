@@ -10,8 +10,8 @@ section .paginacao {
   font-size: .75rem;
 }
 
-.paginacao span {
-  text-decoration: underline;
+.paginacao a {
+  color: var(--text-cinza);
 }
 
 h1 {

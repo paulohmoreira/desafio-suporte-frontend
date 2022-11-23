@@ -11,6 +11,11 @@ header .header-container {
   align-items: center;
 }
 
+header a {
+  color: var(--branco);
+  text-decoration: none;
+}
+
 div.logo {
   display: flex;
   align-items: center;

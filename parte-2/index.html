@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dealer</title>
     <link rel="stylesheet" href="assets/css/global.css">
+    <script src="assets/js/index.js" defer></script>
   </head>
   <body>
     <header>
@@ -16,8 +17,8 @@
           <img src="assets/images/bmw.svg" alt="BMW">
         </div>
         <div class="botoes">
-          <button class="phone-call"><img src="assets/images/phone.svg" alt="Telefone"> ligue agora</button>
-          <button class="whatsapp"><img src="assets/images/whatsapp.svg" alt="Whatsapp"> whatsapp</button>
+          <button class="phone-call" id="phone"><img src="assets/images/phone.svg" alt="Telefone"><a href="tel:1120201010">ligue agora</a></button>
+          <button class="whatsapp" id="whatsapp"><img src="assets/images/whatsapp.svg" alt="Whatsapp"><a href="https://api.whatsapp.com/send?phone=5583988971010" target="_blank">whatsapp</a></button>
         </div>
       </div>
     </header>
@@ -27,8 +28,8 @@
       <section>
         <div class="topo">
           <div class="paginacao">
-            <div>Ofertas → <span>Novo Série 1</span></div>
-            <span>Voltar para página anterior</span>
+            <div>Ofertas → <span><a href="#">Novo Série 1</a></span></div>
+            <span><a href="#">Voltar para página anterior</a></span>
           </div>
           <h1>BMW Série 4 Cabrio</h1>
         </div>
@@ -107,8 +108,6 @@
           </p>
         </div>
       </section>
-
-
 
     </main>
     
