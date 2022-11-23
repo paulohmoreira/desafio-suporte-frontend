@@ -45,7 +45,8 @@ div.detalhes-carro {
 }
 
 div.detalhes-carro img {
-  align-self: flex-start;
+  object-fit: contain;
+  max-width: 541px;
 }
 
 div.destaques button {
@@ -70,6 +71,10 @@ div.item p span {
   color: var(--azul);
 }
 
+div.item img {
+  vertical-align: baseline;
+}
+
 div.item img, div.item p {
   display: inline-block;
 }
@@ -77,5 +82,14 @@ div.item img, div.item p {
 div.destaques div.grid-itens {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  row-gap: 2rem;
+}
+
+@media screen and (max-width: 992px){
+  div.detalhes-carro {
+    flex-direction: column;
+  }
+  div.destaques {
+    max-width: 500px;
+  }
 }
