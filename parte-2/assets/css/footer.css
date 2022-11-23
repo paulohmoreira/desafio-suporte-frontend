@@ -52,6 +52,9 @@ div.footer-end {
   display: flex;
   justify-content: space-between;
 }
+div.footer-end img {
+  max-width: 72px;
+}
 
 div.footer-end p {
   font-size: .75rem;
@@ -68,4 +71,28 @@ div.footer-body a {
 
 img.icone-mapa {
   margin-left: 8px;
+}
+
+@media screen and (max-width: 576px){
+  footer {
+    height: 486px;
+  }
+  div.footer-header {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: .5rem;
+  }
+  div.footer-end {
+    margin-top: .5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem
+  }
+  div.footer-end p {
+    text-align: center;
+  }
+  div.footer-body a {
+    display: block;
+    margin: 0;
+  }
 }
