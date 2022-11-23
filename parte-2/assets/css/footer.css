@@ -10,7 +10,7 @@ div.footer-container {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-
+  position: relative;
 }
 
 div.footer-header {
@@ -71,6 +71,13 @@ div.footer-body a {
 
 img.icone-mapa {
   margin-left: 8px;
+}
+
+a.btn-topo {
+  margin-top: -15px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 @media screen and (max-width: 576px){
