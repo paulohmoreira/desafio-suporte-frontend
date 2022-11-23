@@ -102,7 +102,7 @@ div.info {
 
 div.info p {
   font-size: 1rem;
-  width: 540px;
+  max-width: 540px;
 }
 
 div.info h3 {
@@ -110,8 +110,8 @@ div.info h3 {
 }
 
 div.video-container {
-  border-top: 1px solid var(--cinza);
-  border-bottom: 1px solid var(--cinza);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   padding: 32px 0;
 }
 
@@ -139,11 +139,15 @@ div.video-player iframe {
   max-height: 1087px;
 }
 
+div.texto-legal {
+  padding: 40px 0 60px 0;
+}
+
 div.texto-legal p {
   font-size: .875rem;
 }
 
-p span.strong {
+p.especificacoes span.strong {
   display: block;
   font-weight: 700;
 }

@@ -5,6 +5,7 @@
 
 :root {
   --branco: #fff;
+  --preto: #000;
   --azul: #3754E2;
   --azul-escuro: #304ACB;
   --verde: #4EC859;
@@ -31,7 +32,7 @@ body {
   background-color: var(--cinza-claro);
 }
 
-.header-container, div.topo, div.carro, div.info, div.video-container, div.texto-legal {
+.header-container, div.topo, div.carro, div.info, div.video-container, div.texto-legal, div.footer-container {
   width: 90%;
   margin: auto;
 }
