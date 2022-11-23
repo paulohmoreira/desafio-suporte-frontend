@@ -13,7 +13,8 @@
   --font: 'Open Sans', sans-serif;
   --font-footer: 'Ubuntu', sans-serif;
 
-  --text-gray: #666666;
+  --text-cinza: #666666;
+  --text-cinza-escuro: #333333;
 }
 
 * {
@@ -28,7 +29,7 @@ body {
   background-color: var(--cinza-claro);
 }
 
-.header-container, section {
+.header-container, div.topo, div.carro {
   width: 90%;
   margin: auto;
 }

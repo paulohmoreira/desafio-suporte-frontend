@@ -6,7 +6,7 @@ div.topo {
 section .paginacao {
   display: flex;
   justify-content: space-between;
-  color: var(--text-gray);
+  color: var(--text-cinza);
   font-size: .75rem;
 }
 
@@ -17,4 +17,65 @@ section .paginacao {
 h1 {
   font-size: 2rem;
   margin-top: 8px;
+}
+
+section:nth-child(2) {
+  background-color: var(--branco);
+  padding: 16px 0;
+}
+
+div.carro div.carro-chamada p {
+  color: var(--text-cinza);
+  font-size: 1.5rem;
+}
+
+div.carro p.preco-carro {
+  color: var(--text-cinza);
+  font-size: 2rem;
+}
+
+div.carro p .strong {
+  font-weight: 700;
+  color: var(--text-cinza-escuro);
+}
+
+div.detalhes-carro {
+  display: flex;
+  gap: 1rem;
+}
+
+div.detalhes-carro img {
+  align-self: flex-start;
+}
+
+div.destaques button {
+  width: 200px;
+  border-radius: 50px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+div.destaques h3 {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+
+div.item p {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+div.item p span {
+  display: block;
+  color: var(--azul);
+}
+
+div.item img, div.item p {
+  display: inline-block;
+}
+
+div.destaques div.grid-itens {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
