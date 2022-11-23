@@ -29,7 +29,7 @@ body {
   background-color: var(--cinza-claro);
 }
 
-.header-container, div.topo, div.carro {
+.header-container, div.topo, div.carro, div.info {
   width: 90%;
   margin: auto;
 }

@@ -21,12 +21,20 @@ h1 {
 
 section:nth-child(2) {
   background-color: var(--branco);
+}
+
+div.carro {
+  border-bottom: 3px solid var(--text-cinza-escuro);
   padding: 16px 0;
 }
 
-div.carro div.carro-chamada p {
+div.carro-chamada p {
   color: var(--text-cinza);
   font-size: 1.5rem;
+}
+
+p.preco-carro {
+  font-size: 20rem;
 }
 
 div.carro p.preco-carro {
@@ -85,11 +93,29 @@ div.destaques div.grid-itens {
   row-gap: 2rem;
 }
 
+div.info {
+  display: flex;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+
+div.info p {
+  font-size: 1rem;
+  width: 540px;
+}
+
+div.info h3 {
+ font-size: 2rem;
+}
+
 @media screen and (max-width: 992px){
   div.detalhes-carro {
     flex-direction: column;
   }
   div.destaques {
     max-width: 500px;
+  }
+  div.destaques button {
+    margin-bottom: 2rem;
   }
 }
