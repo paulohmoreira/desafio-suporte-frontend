@@ -8,6 +8,7 @@
   --azul-escuro: #304ACB;
   --verde: #4EC859;
   --verde-escuro: #2DAF38;
+  --cinza: #E1E1E1;
   --cinza-claro: #E5E5E5;
 
   --font: 'Open Sans', sans-serif;
@@ -29,7 +30,7 @@ body {
   background-color: var(--cinza-claro);
 }
 
-.header-container, div.topo, div.carro, div.info {
+.header-container, div.topo, div.carro, div.info, div.video-container, div.texto-legal {
   width: 90%;
   margin: auto;
 }
